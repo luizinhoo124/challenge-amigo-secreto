@@ -148,7 +148,7 @@ Neste projeto, usamos vários conceitos importantes de programação:
 
 ## Como Usar
 
-1. Abra o arquivo `[index.html](https://challenge-amigo-secreto-lyart-kappa.vercel.app/)` no navegador
+1. Abra o arquivo `(https://challenge-amigo-secreto-lyart-kappa.vercel.app/)` no navegador
 2. Digite o nome de um participante e clique em "Adicionar" (ou pressione Enter)
 3. Repita para adicionar todos os participantes
 4. Clique em "Sortear amigo" para fazer o sorteio
