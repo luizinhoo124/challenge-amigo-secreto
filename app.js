@@ -69,6 +69,23 @@ function sortearAmigo() {
     resultadoElement.innerHTML = `<li>🎉 ${amigoSorteado} foi sorteado! 🎉</li>`;
 }
 
+/**
+ * Reseta a lista de amigos, limpando o array e a interface
+ */
+function resetarLista() {
+    // Limpa o array de amigos
+    listaDeAmigos = [];
+    
+    // Atualiza a lista exibida na tela
+    atualizarListaAmigos();
+    
+    // Limpa o resultado anterior se houver
+    document.getElementById('resultado').innerHTML = '';
+    
+    // Foca no campo de entrada
+    document.getElementById('amigo').focus();
+}
+
 // Adiciona evento de tecla Enter no campo de entrada
 document.getElementById('amigo').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
